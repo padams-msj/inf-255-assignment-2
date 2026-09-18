@@ -71,8 +71,7 @@ Age: 7 Adopted: true
 ...
 ```
 
-You have now written the same kind of loop two different ways. In a comment,
-write one sentence about how they differ.
+You have now written the same kind of loop two different ways. 
 
 ### Task 4 — Adopted and available animals with `.filter()`
 
