@@ -175,12 +175,6 @@ You do not need a comment on every line, but a reader should be able to follow
 your logic from your comments alone. Comments that only restate the code — like
 `// map the animals` above a line that maps the animals — do not count.
 
-Three places where a real explanation is expected:
-
-- Task 3: how `for...of` differs from `.forEach()`.
-- Task 8: why you pass `isCat` and not `isCat()`.
-- Task 10: how `isDog` remembers its species.
-
 ## Commit and push
 
 Make **at least three commits of your own** while working. The starter commit
@@ -189,7 +183,7 @@ what changed, for example:
 
 - `Add map and forEach tasks`
 - `Add filter and reduce tasks`
-- `Add species checker closure`
+- `Fixing bug with species checker closure`
 
 A commit saves your work locally. It does not put it on GitHub. Push before you
 submit:
@@ -201,21 +195,8 @@ git push
 ## Before you submit
 
 - All ten tasks are complete and produce the expected output.
-- The console shows **no errors**.
+- The console shows **no JavaScript errors**. (other errors like "GET http://127.0.0.1:5500/favicon.ico" are not a problem)
 - You did not change the `animals` array.
 - Tasks 8 and 10 use your named functions, not anonymous ones.
 - `script.js` is commented in your own words.
 - Your repository has at least three commits you made.
-
-## Optional challenges
-
-Not required:
-
-- Sort a **copy** of the animals by age, youngest first, using `.sort()`. Log
-  the original array afterward to prove it did not change.
-- Use `.find()` to search for a `"hamster"`. What comes back? Add an `if`
-  statement that logs a helpful message instead.
-- Rewrite two of your anonymous callbacks using arrow syntax, and leave the rest
-  as they are so you can compare.
-- Write `makeAgeChecker(maxAge)` in the same style as `makeSpeciesChecker`, and
-  use it to find every animal under 2 years old.
