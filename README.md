@@ -160,8 +160,6 @@ Expected output:
 [ 'Chompers' ]
 ```
 
----
-
 ## Comment your code
 
 **Comments are graded.** Replace the task headings in `script.js` with your own
