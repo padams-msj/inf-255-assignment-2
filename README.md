@@ -160,10 +160,6 @@ Expected output:
 [ 'Chompers' ]
 ```
 
-In a comment, answer this: `makeSpeciesChecker` has already finished running by
-the time you call `isDog`. How does `isDog` still know which species to look
-for?
-
 ---
 
 ## Comment your code
